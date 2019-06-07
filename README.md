@@ -32,6 +32,7 @@ composer require revolution/laravel-logger-cwlogs
             'group'     => env('CWLOGS_GROUP'),
             'stream'    => env('CWLOGS_STREAM'),
             'retention' => env('CWLOGS_RETENTION', 14),
+            'tags'      => [],
             'level'     => 'debug',
         ],
     ]

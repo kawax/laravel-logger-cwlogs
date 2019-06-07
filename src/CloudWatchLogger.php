@@ -32,7 +32,7 @@ class CloudWatchLogger
             $config['stream'],
             $config['retention'],
             10000,
-            [],
+            $config['tags'] ?? [],
             $config['level']
         );
 
