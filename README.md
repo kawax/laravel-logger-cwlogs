@@ -4,8 +4,8 @@ Demo project
 https://github.com/kawax/laravel-logger-project
 
 ## Requirements
-- Laravel >= 5.6
-- PHP >= 7.1.3
+- Laravel >= 6.0
+- PHP >= 7.2
 
 ## Installation
 
